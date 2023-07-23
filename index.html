@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shahid Afridi | Developer Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar" id="navbar">
+    <div class="navbar-container">
+      <h2 class="logo">Shahid Afridi</h2>
+
+      <div class="menu-icon" onclick="toggleMenu()">
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+      </div>
+      <ul class="navigation">
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero" id="hero">
+    <div class="hero-content">
+      <h1 class="hero-title">I am Shahid Afridi</h1>
+      <h3 class="subheading" id="typewriter"></h3>
+      <p class="hero-description">
+        A passionate developer with expertise in web development and more. Welcome to my portfolio!
+      </p>
+      
+      <a href="assets/Graduate Resume.pdf" class="hero-cta">View Resume</a>
+    </div>
+  </section>
+
+
+<!-- More About Me Section -->
+<section class="more-about" id="about">
+  <div class="more-about-wrapper">
+    <div class="more-about-image">
+      <img src="assets/images/IMG_20201202_102934_382.jpg" alt="Your Image">
+    </div>
+    <div class="more-about-content">
+      <h2>More About Me</h2>
+      <p>
+        "I'm an aspiring developer with a deep passion for web development,app development, game development, 
+        and Blender animations. I'm driven by my curiosity to explore and
+         master various programming languages and frameworks to create dynamic and interactive websites.
+           With a strong eye for design, I excel in web designing,
+         creating captivating user interfaces and layouts to provide exceptional user experiences."
+      </p>
+      <p>
+        With a strong eye for design, I excel in web designing,
+         creating captivating user interfaces and layouts to provide exceptional user experiences."
+      </p>
+      <p>
+        
+      </p>
+    </div>
+  </div>
+</section>
+
+
+<section class="skills" id="skills">
+  <h2 class="skill-header">My Skills</h2>
+
+  <div class="skills-wrapper">
+    <div class="first-set animate__animated animate__pulse">
+      <img
+        src="assets/icons/html.jpg"
+        alt=""
+        loading="lazy"
+        class="icon icon-card"
+      />
+      <img
+        src="assets/icons/css.jpg"
+        alt=""
+        loading="lazy"
+        class="icon icon-card"
+      />
+      <img
+        src="assets/icons/js.jpg"
+        alt=""
+        loading="lazy"
+        class="icon icon-card"
+      />
+    </div>
+
+    <div class="second-set animate__animated animate__pulse">
+      <img
+        src="assets/icons/app.jpg"
+        alt=""
+        loading="lazy"
+        class="icon icon-card"
+      />
+      <img
+        src="assets/icons/blender.jpg"
+        alt=""
+        loading="lazy"
+        class="icon icon-card"
+      />
+      <img
+        src="assets/icons/figma.jpg"
+        alt=""
+        loading="lazy"
+        class="icon icon-card"
+      />
+    </div>
+  </div>
+</section>
+
+  <!-- Projects Section -->
+  <section class="projects" id="projects">
+    <h2 class="projects-title">Some of my Recent Projects</h2>
+    <div class="projects-container">
+      <div class="project-container project-card">
+        <img
+          src="assets/images/hero.jpg"
+          alt="Bus Transportation App"
+          loading="lazy"
+          class="project-pic"
+        />
+        <h3 class="project-title">Bus Transportation App</h3>
+        <p class="project-details">
+          Through this bus application where student can track the bus,
+          check routes of buses,bus payments,etc.
+        </p>
+        <a href="#" target="_blank" class="project-link">Check it Out</a>
+      </div>
+      <div class="project-container project-card">
+        <img
+          src="assets/images/hero.jpg"
+          alt="netflic-clone"
+          loading="lazy"
+          class="project-pic"
+        />
+        <h3 class="project-title">College Website</h3>
+        <p class="project-details">
+          Responsive college Website using web development , in this website where student can check info of college updates,
+          department wise,..
+        </p>
+        <a href="#" target="_blank" class="project-link">Check it Out</a>
+      </div>
+      <div class="project-container project-card">
+        <img
+          src="assets/images/hero.jpg"
+          alt="greeny-earth"
+          loading="lazy"
+          class="project-pic"
+        />
+        <h3 class="project-title">Blender Animations</h3>
+        <p class="project-details">
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas
+          ratione vel inventore labore commodi modi quos culpa aut saepe!
+          Alias!
+        </p>
+        <a href="#" target="_blank" class="project-link">Check it Out</a>
+      </div>
+    </div>
+  </section>
+    <!-- Add your project showcases here -->
+  </section>
+
+  <!-- Contact Section -->
+  <section class="contact" id="contact">
+    <div class="contact-container">
+      <h2 class="contact-title">Get In Touch</h2>
+      <p class="contact-description">Feel free to reach out for collaboration or more information.</p>
+      <form action="https://formspree.io/your_email_here" method="POST" class="contact-form">
+        <input type="text" name="name" placeholder="Your Name" required>
+        <input type="email" name="email" placeholder="Your Email" required>
+        <textarea name="message" placeholder="Your Message" rows="4" required></textarea>
+        <button type="submit" class="contact-btn">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer Section -->
+  <footer class="footer">
+    <p class="footer-text">&copy; 2023 Shahid Afridi | Developer Portfolio</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
