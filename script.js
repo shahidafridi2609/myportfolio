@@ -32,7 +32,7 @@ document.addEventListener("DOMContentLoaded", function () {
     var data = new FormData(form);
 
     var emailData = {
-      to: 'your-gmail-address@gmail.com',
+      to: 'shahafridi2609@gmail.com',
       subject: 'New Contact Form Submission',
       message: 'Name: ' + data.get('name') + '\nEmail: ' + data.get('email') + '\nMessage: ' + data.get('message')
     };
