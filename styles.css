@@ -390,6 +390,20 @@ html,body {
   padding: 0;
   overflow-x: hidden;
 }
+
+.icon-card {
+  transition: transform 0.3s ease-in-out;
+}
+
+.icon-card:hover {
+  transform: scale(1.2);
+}
+
+/* Add this CSS for the mobile GIF */
+.gif-image {
+  display: none; /* Hide the GIF by default */
+}
+
 /*---------------------- Small devices (phones) -----------------------*/
 @media screen and (max-width: 600px) {
 
