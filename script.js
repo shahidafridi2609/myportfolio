@@ -21,6 +21,16 @@ document.addEventListener("DOMContentLoaded", function () {
   type();
 });
 
+// Your custom JavaScript code in custom-script.js
+function initializeGmailAPI() {
+  gapi.load('client', function() {
+    // Load the Gmail API client
+    gapi.client.load('gmail', 'v1', sendEmail);
+  });
+}
+
+// Rest of your JavaScript code, including the sendEmail() function and form submission event listener
+
   // Load the Gmail API client
   function loadGmailApi() {
     gapi.client.load('gmail', 'v1', sendEmail);
