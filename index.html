@@ -5,8 +5,8 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Shahid Afridi | Developer Portfolio</title>
-  <link rel="stylesheet" href="styles.css">
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/velocity/2.0.5/velocity.min.js"></script>
+  <link rel="stylesheet" href="styles.css"> 
+  <script src="https://apis.google.com/js/api.js"></script>
 
 </head>
 <body>
@@ -32,7 +32,7 @@
   <!-- Hero Section -->
   <section class="hero" id="hero">
     <video class="hero-video" autoplay loop muted style="opacity: 0.5;">
-      <source src="assets/space.mp4" type="video/mp4">
+      <source src="assets/space-explorer-moewalls-com.mp4" type="video/mp4">
       Your browser does not support the video tag.
     </video>
     <div class="hero-content">
@@ -179,12 +179,13 @@
     <div class="contact-container">
       <h2 class="contact-title">Get In Touch</h2>
       <p class="contact-description">Feel free to reach out for collaboration or more information.</p>
-      <form action="https://formspree.io/f/xaygqnkz" method="POST" class="contact-form">
+      <form id="contactForm" class="contact-form">
         <input type="text" name="name" placeholder="Your Name" required>
         <input type="email" name="email" placeholder="Your Email" required>
         <textarea name="message" placeholder="Your Message" rows="4" required></textarea>
         <button type="submit" class="contact-btn">Send Message</button>
       </form>
+      
     </div>
   </section>
 
