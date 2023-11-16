@@ -76,7 +76,7 @@ body {
 }
 /* -----------------------------------Navbar Styles */
 .navbar {
-  position: relative;
+  
   width: 100%;
   background-color: transparent; /* Set the background to transparent */
   padding: 1rem;
